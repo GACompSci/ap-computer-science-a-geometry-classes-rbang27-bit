@@ -14,6 +14,9 @@ public class App {
         Circle x = new Circle(MathTools.randint(1, 10), a);
         System.out.println(x.getArea());
 
+        Rectangle y = new Rectangle(b, MathTools.randint(1, 10), MathTools.randint(1, 10));
+        System.out.println(y.getArea());
+
         
 
 
