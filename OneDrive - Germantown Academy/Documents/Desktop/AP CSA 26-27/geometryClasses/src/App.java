@@ -6,6 +6,7 @@ public class App {
 
         Point a = new Point(MathTools.randint(2,9),MathTools.randint(4,12));
         Point b = new Point(MathTools.randint(2,9),MathTools.randint(4,12));
+        Point c = new Point(MathTools.randint(2,9),MathTools.randint(4,12));
 
         System.out.println(b.getX());
         System.out.println(a.getY());
@@ -16,6 +17,10 @@ public class App {
 
         Rectangle y = new Rectangle(b, MathTools.randint(1, 10), MathTools.randint(1, 10));
         System.out.println(y.getArea());
+
+        Triangle z = new Triangle(a ,b, c);
+        System.out.println(z.getArea());
+
 
         
 
